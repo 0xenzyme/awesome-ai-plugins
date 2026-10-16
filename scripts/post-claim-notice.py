@@ -279,19 +279,40 @@ def parse_pr_diff_for_repos():
     )
     diff = result.stdout
 
-    repos = set()
-    # Match https://github.com/owner/repo in added lines (starting with +)
+    added_line_repos = {}
+    removed_bodies = set()
+    # Match https://github.com/owner/repo on diff lines. A re-sorted README
+    # line appears on both a `-` and a `+` side with the same content, so it
+    # must not count as the PR adding that repository. Bodies are compared
+    # case- and punctuation-insensitively so a moved line that is re-indented
+    # or re-punctuated still nets, while a real addition survives an unrelated
+    # removal of the same URL.
+    def normalize_body(text):
+        return re.sub(r"[^a-z0-9]+", "", text.lower())
+
     for line in diff.split("\n"):
-        if not line.startswith("+"):
+        is_added = line.startswith("+") and not line.startswith("+++")
+        is_removed = line.startswith("-") and not line.startswith("---")
+        if not is_added and not is_removed:
+            continue
+        body = normalize_body(line[1:])
+        if is_removed:
+            removed_bodies.add(body)
             continue
         matches = re.findall(r"https://github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", line)
         for match in matches:
             normalized = normalize_repo_url(match)
             # Skip hashgraph-online repos (our own)
-            if not normalized.startswith("hashgraph-online/"):
-                repos.add(normalized)
+            if normalized.startswith("hashgraph-online/"):
+                continue
+            added_line_repos.setdefault(body, set()).add(normalized)
 
-    return repos
+    return {
+        repo
+        for body, repos in added_line_repos.items()
+        if body not in removed_bodies
+        for repo in repos
+    }
 
 
 def has_existing_claim_comment():

@@ -7800,6 +7800,17 @@
       "install_url": "https://raw.githubusercontent.com/zPeppOz/omp-rewrite/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "omp-sidelight",
+      "displayName": "omp-sidelight",
+      "description": "Oh My Pi (omp) plugin that turns long agent answers into full-screen documents where you can select any passage and ask about it in a side thread that never enters the conversation",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "owner": "Mannan-Goyal",
+      "repo": "omp-sidelight",
+      "url": "https://github.com/Mannan-Goyal/omp-sidelight",
+      "installation_url": "https://github.com/Mannan-Goyal/omp-sidelight#readme"
+    },
+    {
       "name": "Open PR",
       "displayName": "Open PR",
       "description": "AI code review that lands on the pull request itself across GitHub, GitLab, and Bitbucket, learning each repo's conventions to post one review, one fix commit, and in-thread replies from Claude Code, Cursor, Codex, Gemini CLI, or Antigravity",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-16",
-  "total": 873,
+  "total": 874,
   "platforms": [
     "codex",
     "grok",
@@ -7273,6 +7273,16 @@
       "ecosystems": [
         "claude-code"
       ]
+    },
+    {
+      "name": "omp-sidelight",
+      "url": "https://github.com/Mannan-Goyal/omp-sidelight",
+      "owner": "Mannan-Goyal",
+      "repo": "omp-sidelight",
+      "description": "Oh My Pi (omp) plugin that turns long agent answers into full-screen documents where you can select any passage and ask about it in a side thread that never enters the conversation",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/Mannan-Goyal/omp-sidelight#readme"
     },
     {
       "name": "Open PR",

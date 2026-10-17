@@ -5079,6 +5079,21 @@
       "installation_url": "https://github.com/anglesvideo/angles-video-skills#readme"
     },
     {
+      "name": "antidote",
+      "displayName": "antidote",
+      "description": "An antidote to AI patchwork: stops agents from hiding bugs behind guards and makes them remove the cause",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Avtr99",
+      "repo": "antidote",
+      "url": "https://github.com/Avtr99/antidote",
+      "install_url": "https://raw.githubusercontent.com/Avtr99/antidote/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Antigravity Context Meter",
       "displayName": "Antigravity Context Meter",
       "description": "Real-time 1:1 Cursor-style context meter & zero-loss session migration for Google Antigravity (Desktop HUD & IDE Extension)",

@@ -7666,6 +7666,21 @@
       "install_url": "https://raw.githubusercontent.com/divyamrastogi/model-orchestration/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "ModStage",
+      "displayName": "ModStage",
+      "description": "Claude Code plugin that runs Codex, Grok, Muse, Antigravity, Kimi, Qwen Code and OpenCode as watched subagents in your session, with a shared per-folder board of file leases whose fence numbers are checked at the write for Codex and ACP agents",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "qualixar",
+      "repo": "modstage",
+      "url": "https://github.com/qualixar/modstage",
+      "install_url": "https://raw.githubusercontent.com/qualixar/modstage/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "mstack",
       "displayName": "mstack",
       "description": "61 skills, 19 agents and 33 prompts for Claude Code, Cursor, Codex and 16 more coding agents via npx @imisbahk/mstack",
@@ -10148,6 +10163,17 @@
       "installation_url": "https://github.com/KCNyu/clawock#readme"
     },
     {
+      "name": "ClawRouter",
+      "displayName": "ClawRouter",
+      "description": "OpenClaw plugin providing local LLM routing across 88 models with x402 USDC or API-key billing, plus crypto, market, and phone-call tools",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "owner": "BlockRunAI",
+      "repo": "ClawRouter",
+      "url": "https://github.com/BlockRunAI/ClawRouter",
+      "installation_url": "https://github.com/BlockRunAI/ClawRouter#readme"
+    },
+    {
       "name": "Clayform",
       "displayName": "Clayform",
       "description": "MCP server that lets agents build 3D models from a semantic scene document, look at them through a software renderer, check them with measuring critics, rig and animate them, and export glTF, with no Blender or GPU",
@@ -10296,6 +10322,21 @@
       "repo": "data-forge",
       "url": "https://github.com/ianktoo/data-forge",
       "installation_url": "https://github.com/ianktoo/data-forge#readme"
+    },
+    {
+      "name": "DC Hub",
+      "displayName": "DC Hub",
+      "description": "MCP server: DC Hub is the live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power, across 300+ markets. 94 tools at https://dchub.cloud/mcp",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "azmartone67",
+      "repo": "dchub-mcp-server",
+      "url": "https://github.com/azmartone67/dchub-mcp-server",
+      "installation_url": "https://github.com/azmartone67/dchub-mcp-server#readme"
     },
     {
       "name": "Deadbolt",
@@ -10464,6 +10505,21 @@
       "repo": "flacli",
       "url": "https://github.com/h-3303/flacli",
       "install_url": "https://raw.githubusercontent.com/h-3303/flacli/HEAD/plugins/claude-code/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "flatrate-math",
+      "displayName": "flatrate-math",
+      "description": "MCP server: prices a fixed bid, a fully loaded hire, and a flat-rate subscription on one number, total cost per delivered request (stdio JSON-RPC, Python stdlib only)",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "scrapertweeter3-prog",
+      "repo": "mcp-flatratemath",
+      "url": "https://github.com/scrapertweeter3-prog/mcp-flatratemath",
+      "installation_url": "https://github.com/scrapertweeter3-prog/mcp-flatratemath#readme"
     },
     {
       "name": "framewright",

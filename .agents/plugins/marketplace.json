@@ -350,6 +350,21 @@
       "install_url": "https://raw.githubusercontent.com/cloudguo123/atomlane/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Auto Pilot",
+      "displayName": "Auto Pilot",
+      "description": "Intake-first Codex plugin that turns a short project request into a structured, resumable execution workflow with one-question-at-a-time intake, project contract files, blocker triage, and resume support.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "minsu0707",
+      "repo": "auto-pilot",
+      "url": "https://github.com/minsu0707/auto-pilot",
+      "install_url": "https://raw.githubusercontent.com/minsu0707/auto-pilot/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "BABOK Analyst",
       "displayName": "BABOK Analyst",
       "description": "BABOK v3 business analysis agent with 16 MCP tools, a 9-stage pipeline, and human-in-the-loop approval gates.",
@@ -4610,6 +4625,21 @@
       "repo": "skills",
       "url": "https://github.com/nuthinking/skills",
       "installation_url": "https://github.com/nuthinking/skills#readme"
+    },
+    {
+      "name": "vibes-plug",
+      "displayName": "vibes-plug",
+      "description": "Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "roedyrustam",
+      "repo": "vibes-plug",
+      "url": "https://github.com/roedyrustam/vibes-plug",
+      "installation_url": "https://github.com/roedyrustam/vibes-plug#readme"
     },
     {
       "name": "writing-with-agents",
@@ -9352,6 +9382,21 @@
       "repo": "skills",
       "url": "https://github.com/ultralytics/skills",
       "install_url": "https://raw.githubusercontent.com/ultralytics/skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "universal-modder",
+      "displayName": "universal-modder",
+      "description": "Agent Skills, a CLI and a shared knowledge base that let Claude Code, Codex, Cursor, Gemini CLI, Copilot and OpenCode mod PC games you own: engine recon, reverse engineering, fal-generated art and sound, testing in the running game, and showcase videos",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rehan-remade",
+      "repo": "universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "install_url": "https://raw.githubusercontent.com/rehan-remade/universal-modder/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "universalMods",

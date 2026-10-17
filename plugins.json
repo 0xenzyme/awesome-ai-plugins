@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-17",
-  "total": 885,
+  "total": 886,
   "platforms": [
     "codex",
     "grok",
@@ -11071,6 +11071,16 @@
       "ecosystems": [
         "codex"
       ]
+    },
+    {
+      "name": "Statsnet MCP",
+      "url": "https://github.com/usenetstate/statsnet-mcp",
+      "owner": "usenetstate",
+      "repo": "statsnet-mcp",
+      "description": "Background check any company in the world: registration, executives, courts and finances. Remote MCP endpoint https://statsnet.co/mcp; registry id `io.github.usenetstate/statsnet`",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/usenetstate/statsnet-mcp#readme"
     },
     {
       "name": "Substack MCP",

@@ -11899,6 +11899,17 @@
       "install_url": "https://raw.githubusercontent.com/springbrand-lab/springbrand-agent-setup/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Statsnet MCP",
+      "displayName": "Statsnet MCP",
+      "description": "Background check any company in the world: registration, executives, courts and finances. Remote MCP endpoint https://statsnet.co/mcp; registry id `io.github.usenetstate/statsnet`",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "owner": "usenetstate",
+      "repo": "statsnet-mcp",
+      "url": "https://github.com/usenetstate/statsnet-mcp",
+      "installation_url": "https://github.com/usenetstate/statsnet-mcp#readme"
+    },
+    {
       "name": "Substack MCP",
       "displayName": "Substack MCP",
       "description": "Safe Substack creator operations across publications: rich drafts, Notes, analytics, and consented subscribers; long-form posts stay draft-only, while Notes publish immediately",

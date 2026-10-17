@@ -2990,6 +2990,21 @@
       "install_url": "https://raw.githubusercontent.com/foklepoint/court-rules-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "DamnPDFs",
+      "displayName": "DamnPDFs",
+      "description": "Use 71 PDF, image and Office file tools through a paired DamnPDFs browser tab, with temporary cloud processing for native conversions and local imports.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "SouravBeraAkaSpeed",
+      "repo": "damnpdfs-codex-plugin",
+      "url": "https://github.com/SouravBeraAkaSpeed/damnpdfs-codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/SouravBeraAkaSpeed/damnpdfs-codex-plugin/HEAD/plugins/damnpdfs/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Darkmoon",
       "displayName": "Darkmoon",
       "description": "Start authorized autonomous AI pentest runs, poll status, list campaigns and read findings on your own self-hosted Darkmoon Pro through MCP.",
@@ -9112,6 +9127,21 @@
       "repo": "supermod-claudecode",
       "url": "https://github.com/nayde8824/supermod-claudecode",
       "install_url": "https://raw.githubusercontent.com/nayde8824/supermod-claudecode/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "swarmtier",
+      "displayName": "swarmtier",
+      "description": "Claude Code plugin that routes each subagent to the cheapest model that gets it right, with a hook that requires an explicit effort level, cold-cache warnings, a delegation ledger, and a lesson engine that injects past mistakes into the next prompt",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "guilhermevargas51",
+      "repo": "swarmtier",
+      "url": "https://github.com/guilhermevargas51/swarmtier",
+      "install_url": "https://raw.githubusercontent.com/guilhermevargas51/swarmtier/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "synthesis-skills",

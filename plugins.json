@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-17",
-  "total": 874,
+  "total": 876,
   "platforms": [
     "codex",
     "grok",
@@ -2798,6 +2798,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/foklepoint/court-rules-codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "DamnPDFs",
+      "url": "https://github.com/SouravBeraAkaSpeed/damnpdfs-codex-plugin",
+      "owner": "SouravBeraAkaSpeed",
+      "repo": "damnpdfs-codex-plugin",
+      "description": "Use 71 PDF, image and Office file tools through a paired DamnPDFs browser tab, with temporary cloud processing for native conversions and local imports.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/SouravBeraAkaSpeed/damnpdfs-codex-plugin/HEAD/plugins/damnpdfs/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -8485,6 +8499,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/nayde8824/supermod-claudecode/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "swarmtier",
+      "url": "https://github.com/guilhermevargas51/swarmtier",
+      "owner": "guilhermevargas51",
+      "repo": "swarmtier",
+      "description": "Claude Code plugin that routes each subagent to the cheapest model that gets it right, with a hook that requires an explicit effort level, cold-cache warnings, a delegation ledger, and a lesson engine that injects past mistakes into the next prompt",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/guilhermevargas51/swarmtier/HEAD/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"

@@ -116,6 +116,7 @@ Individually installable Agent Skills collections, rather than one client-specif
 - [Kuudo Skills](https://github.com/KuudoAI/skills) - 22 Agent Skills for Amazon sellers and advertisers covering Sponsored Products and Brands audits, search-term mining, budget pacing, DSP and Amazon Marketing Cloud, listings, product images, repricing, FBA inbound, and profitability, built for Kuudo's hosted Amazon Ads and SP-API MCP servers, with price, budget, listing, and shipment writes previewed for explicit approval.
 - [nuthinking/skills](https://github.com/nuthinking/skills) - Agent skills for Claude Code, Codex and Cursor, including site-edit, where editors pin notes on a live site and Claude Code turns them into pull requests, and product-map, which keeps a feature map and product flows in the repo.
 - [vibes-plug](https://github.com/roedyrustam/vibes-plug) - Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows.
+- [vietnamese-language-skill](https://github.com/trussary/vietnamese-language-skill) - Collection of agent skills that fix Vietnamese register, terminology, and locale formatting across landing pages, docs, marketing, finance, and education, with a standalone validator.
 - [writing-with-agents](https://github.com/Jeffallan/writing-with-agents) - Ten Agent Skills that turn Betty Flowers' Madman, Architect, Carpenter, Judge writing method into a human-in-the-loop workflow, with SEO, a quality rubric, and content strategy.
 
 ### Development & Workflow

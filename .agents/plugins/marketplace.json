@@ -412,7 +412,7 @@
     {
       "name": "Bring Your AI Migration Auditor",
       "displayName": "Bring Your AI Migration Auditor",
-      "description": "Read-only Codex plugin for auditing Claude Code to Codex migrations before Codex edits code. Checks AGENTS.md/CLAUDE.md scope, hooks, MCP config, skills, secret references, and validation notes.",
+      "description": "Read-only audit of AGENTS.md/CLAUDE.md scope, hooks, MCP config, skills, secret references, and validation notes before Codex edits migrated projects.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -4676,6 +4676,21 @@
       "installation_url": "https://github.com/Jeffallan/claude-skills#readme"
     },
     {
+      "name": "image-use",
+      "displayName": "image-use",
+      "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "leeguooooo",
+      "repo": "image-use",
+      "url": "https://github.com/leeguooooo/image-use",
+      "installation_url": "https://github.com/leeguooooo/image-use#readme"
+    },
+    {
       "name": "kstack",
       "displayName": "kstack",
       "description": "Eleven agent skills for Herdr that plan with two models checking each other, build with parallel reviewed workers, run a verification swarm, then push a PR and fix it until checks are green",
@@ -4691,6 +4706,21 @@
       "installation_url": "https://github.com/dwk601/kstack#readme"
     },
     {
+      "name": "memory-use",
+      "displayName": "memory-use",
+      "description": "Portable agent memory in a private Markdown Git repository, with topic-focused recall, cross-session and cross-machine sync, and pre-commit secret checks",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "leeguooooo",
+      "repo": "memory-use",
+      "url": "https://github.com/leeguooooo/memory-use",
+      "installation_url": "https://github.com/leeguooooo/memory-use#readme"
+    },
+    {
       "name": "nuthinking/skills",
       "displayName": "nuthinking/skills",
       "description": "Agent skills for Claude Code, Codex and Cursor, including site-edit, where editors pin notes on a live site and Claude Code turns them into pull requests, and product-map, which keeps a feature map and product flows in the repo",
@@ -4704,6 +4734,21 @@
       "repo": "skills",
       "url": "https://github.com/nuthinking/skills",
       "installation_url": "https://github.com/nuthinking/skills#readme"
+    },
+    {
+      "name": "profile-use",
+      "displayName": "profile-use",
+      "description": "Agent skill that reuses one private personal profile across browser, iPhone and desktop forms, with masked reads, sensitive-field confirmation and approval before submission",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "leeguooooo",
+      "repo": "profile-use",
+      "url": "https://github.com/leeguooooo/profile-use",
+      "installation_url": "https://github.com/leeguooooo/profile-use#readme"
     },
     {
       "name": "vibes-plug",
@@ -7395,6 +7440,21 @@
       "repo": "lattice",
       "url": "https://github.com/techygarg/lattice",
       "install_url": "https://raw.githubusercontent.com/techygarg/lattice/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "LGTMgate",
+      "displayName": "LGTMgate",
+      "description": "Claude Code plugin that runs one Workflow per issue in its own git worktree, taking a GitHub issue to a reviewed PR with Theo, Sam, Nick and Morgan agents, and ticking each acceptance criterion only with cited evidence",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Zigzag968",
+      "repo": "claude-code-lgtmgate",
+      "url": "https://github.com/Zigzag968/claude-code-lgtmgate",
+      "install_url": "https://raw.githubusercontent.com/Zigzag968/claude-code-lgtmgate/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Limitless Library",
@@ -10141,6 +10201,20 @@
       "installation_url": "https://github.com/atakanelik34/Bilinc#readme"
     },
     {
+      "name": "bitwarden-use",
+      "displayName": "bitwarden-use",
+      "description": "Agent-friendly Bitwarden and Vaultwarden CLI with an in-memory key agent, FIDO2 passkeys and direct secret injection into child processes without printing credentials",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "leeguooooo",
+      "repo": "bitwarden-use",
+      "url": "https://github.com/leeguooooo/bitwarden-use"
+    },
+    {
       "name": "bookstack-mcp",
       "displayName": "bookstack-mcp",
       "description": "MCP server for searching, reading, and managing BookStack wiki content from AI assistants",
@@ -10270,6 +10344,21 @@
       "repo": "chorale",
       "url": "https://github.com/hxy9243/chorale",
       "install_url": "https://raw.githubusercontent.com/hxy9243/chorale/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "chrome-use",
+      "displayName": "chrome-use",
+      "description": "MCP server: Controls your already-logged-in Chrome through native messaging, with isolated tab groups for concurrent agents and no remote-debugging port",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "leeguooooo",
+      "repo": "chrome-use",
+      "url": "https://github.com/leeguooooo/chrome-use",
+      "installation_url": "https://github.com/leeguooooo/chrome-use#readme"
     },
     {
       "name": "claude-ai-music-skills",
@@ -11042,6 +11131,21 @@
       "install_url": "https://raw.githubusercontent.com/Sidd27/infrawise/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "iphone-use",
+      "displayName": "iphone-use",
+      "description": "MCP server: Controls real iPhones (iOS 15+) with a purpose-built XCTest runner (~0.1 s text screen reads) and auto-discovered, reusable flows that replay whole tasks in one call without model inference or token cost",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "leeguooooo",
+      "repo": "iphone-use",
+      "url": "https://github.com/leeguooooo/iphone-use",
+      "installation_url": "https://github.com/leeguooooo/iphone-use#readme"
+    },
+    {
       "name": "JVM Pulse",
       "displayName": "JVM Pulse",
       "description": "Claude Code plugin and GitHub Copilot canvas extension for profiling Java garbage collection and JFR telemetry, with a portable CLI and shareable HTML reports",
@@ -11091,6 +11195,21 @@
       "owner": "Looted",
       "repo": "kibi",
       "url": "https://github.com/Looted/kibi"
+    },
+    {
+      "name": "Kiln",
+      "displayName": "Kiln",
+      "description": "3D asset engine and toolchain for coding agents, with MCP, CLI and skills for generating, reviewing, revising and exporting assets through JavaScript",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "instruktlabs",
+      "repo": "kiln",
+      "url": "https://github.com/instruktlabs/kiln",
+      "install_url": "https://raw.githubusercontent.com/instruktlabs/kiln/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Kindle Highlights",

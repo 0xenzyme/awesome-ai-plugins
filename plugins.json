@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-18",
-  "total": 896,
+  "total": 904,
   "platforms": [
     "codex",
     "grok",
@@ -400,7 +400,7 @@
       "url": "https://github.com/unitedideas/bringyour-mcp",
       "owner": "unitedideas",
       "repo": "bringyour-mcp",
-      "description": "Read-only Codex plugin for auditing Claude Code to Codex migrations before Codex edits code. Checks AGENTS.md/CLAUDE.md scope, hooks, MCP config, skills, secret references, and validation notes.",
+      "description": "Read-only audit of AGENTS.md/CLAUDE.md scope, hooks, MCP config, skills, secret references, and validation notes before Codex edits migrated projects.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/unitedideas/bringyour-mcp/HEAD/.codex-plugin/plugin.json",
@@ -4378,6 +4378,20 @@
       ]
     },
     {
+      "name": "image-use",
+      "url": "https://github.com/leeguooooo/image-use",
+      "owner": "leeguooooo",
+      "repo": "image-use",
+      "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/leeguooooo/image-use#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "kstack",
       "url": "https://github.com/dwk601/kstack",
       "owner": "dwk601",
@@ -4392,6 +4406,20 @@
       ]
     },
     {
+      "name": "memory-use",
+      "url": "https://github.com/leeguooooo/memory-use",
+      "owner": "leeguooooo",
+      "repo": "memory-use",
+      "description": "Portable agent memory in a private Markdown Git repository, with topic-focused recall, cross-session and cross-machine sync, and pre-commit secret checks",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/leeguooooo/memory-use#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "nuthinking/skills",
       "url": "https://github.com/nuthinking/skills",
       "owner": "nuthinking",
@@ -4401,6 +4429,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/nuthinking/skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "profile-use",
+      "url": "https://github.com/leeguooooo/profile-use",
+      "owner": "leeguooooo",
+      "repo": "profile-use",
+      "description": "Agent skill that reuses one private personal profile across browser, iPhone and desktop forms, with masked reads, sensitive-field confirmation and approval before submission",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/leeguooooo/profile-use#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -6898,6 +6940,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "LGTMgate",
+      "url": "https://github.com/Zigzag968/claude-code-lgtmgate",
+      "owner": "Zigzag968",
+      "repo": "claude-code-lgtmgate",
+      "description": "Claude Code plugin that runs one Workflow per issue in its own git worktree, taking a GitHub issue to a reviewed PR with Theo, Sam, Nick and Morgan agents, and ticking each acceptance criterion only with cited evidence",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Zigzag968/claude-code-lgtmgate/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -9446,6 +9502,19 @@
       "installation_url": "https://github.com/atakanelik34/Bilinc#readme"
     },
     {
+      "name": "bitwarden-use",
+      "url": "https://github.com/leeguooooo/bitwarden-use",
+      "owner": "leeguooooo",
+      "repo": "bitwarden-use",
+      "description": "Agent-friendly Bitwarden and Vaultwarden CLI with an in-memory key agent, FIDO2 passkeys and direct secret injection into child processes without printing credentials",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ]
+    },
+    {
       "name": "bookstack-mcp",
       "url": "https://github.com/ttpears/bookstack-mcp",
       "owner": "ttpears",
@@ -9565,6 +9634,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "chrome-use",
+      "url": "https://github.com/leeguooooo/chrome-use",
+      "owner": "leeguooooo",
+      "repo": "chrome-use",
+      "description": "MCP server: Controls your already-logged-in Chrome through native messaging, with isolated tab groups for concurrent agents and no remote-debugging port",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/leeguooooo/chrome-use#readme",
+      "ecosystems": [
+        "mcp"
       ]
     },
     {
@@ -10282,6 +10365,20 @@
       ]
     },
     {
+      "name": "iphone-use",
+      "url": "https://github.com/leeguooooo/iphone-use",
+      "owner": "leeguooooo",
+      "repo": "iphone-use",
+      "description": "MCP server: Controls real iPhones (iOS 15+) with a purpose-built XCTest runner (~0.1 s text screen reads) and auto-discovered, reusable flows that replay whole tasks in one call without model inference or token cost",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/leeguooooo/iphone-use#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
       "name": "JVM Pulse",
       "url": "https://github.com/brunoborges/jvm-pulse",
       "owner": "brunoborges",
@@ -10326,6 +10423,20 @@
       "platform": "standalone",
       "ecosystems": [
         "standalone"
+      ]
+    },
+    {
+      "name": "Kiln",
+      "url": "https://github.com/instruktlabs/kiln",
+      "owner": "instruktlabs",
+      "repo": "kiln",
+      "description": "3D asset engine and toolchain for coding agents, with MCP, CLI and skills for generating, reviewing, revising and exporting assets through JavaScript",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/instruktlabs/kiln/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
       ]
     },
     {

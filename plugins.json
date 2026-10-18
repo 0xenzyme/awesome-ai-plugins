@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-17",
-  "total": 887,
+  "last_updated": "2026-10-18",
+  "total": 890,
   "platforms": [
     "codex",
     "grok",
@@ -2960,6 +2960,20 @@
       ]
     },
     {
+      "name": "Eigenheim Berlin Market Data",
+      "url": "https://github.com/magicSEO/eigenheim-mcp",
+      "owner": "magicSEO",
+      "repo": "eigenheim-mcp",
+      "description": "Read-only remote MCP server and skill for daily Berlin real estate data: price per m\u00b2 by locality, rental yields, land values and active listings.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/magicSEO/eigenheim-mcp/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Equibles",
       "url": "https://github.com/daniel3303/stock-market-mcp-server",
       "owner": "daniel3303",
@@ -4313,6 +4327,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/dwk601/kstack#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "Kuudo Skills",
+      "url": "https://github.com/KuudoAI/skills",
+      "owner": "KuudoAI",
+      "repo": "skills",
+      "description": "22 Agent Skills for Amazon sellers and advertisers covering Sponsored Products and Brands audits, search-term mining, budget pacing, DSP and Amazon Marketing Cloud, listings, product images, repricing, FBA inbound, and profitability, built for Kuudo's hosted Amazon Ads and SP-API MCP servers, with price, budget, listing, and shipment writes previewed for explicit approval",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/KuudoAI/skills#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -9527,10 +9555,10 @@
       "description": "Hosted hiring MCP server plus Claude Code, Cursor and Gemini CLI plugins: search 210,000+ vetted startup candidates, review Clera's picks and request intros over OAuth",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/getclera/mcp/HEAD/.claude-plugin/plugin.json",
-      "platform": "claude-code",
+      "install_url": "https://raw.githubusercontent.com/getclera/mcp/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
@@ -10878,6 +10906,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/reduck-ai/agents#readme",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "RestoSignals",
+      "url": "https://github.com/paperandbeyond23-gif/restosignals-mcp",
+      "owner": "paperandbeyond23-gif",
+      "repo": "restosignals-mcp",
+      "description": "Claude Code plugin and Agent Skill for the hosted RestoSignals MCP server: find US restaurants and bars 1-6 months before they open, scored from public liquor-license, food-permit and business filings, with owner contact (free API key)",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/paperandbeyond23-gif/restosignals-mcp/HEAD/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"

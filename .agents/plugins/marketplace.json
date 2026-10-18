@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-17",
+  "last_updated": "2026-10-18",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3157,6 +3157,21 @@
       "install_url": "https://raw.githubusercontent.com/GarethManning/education-agent-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Eigenheim Berlin Market Data",
+      "displayName": "Eigenheim Berlin Market Data",
+      "description": "Read-only remote MCP server and skill for daily Berlin real estate data: price per m\u00b2 by locality, rental yields, land values and active listings.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "magicSEO",
+      "repo": "eigenheim-mcp",
+      "url": "https://github.com/magicSEO/eigenheim-mcp",
+      "install_url": "https://raw.githubusercontent.com/magicSEO/eigenheim-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Equibles",
       "displayName": "Equibles",
       "description": "SEC filings, financial statements, earnings call transcripts, insider trades and 13F holdings for US stocks through the hosted Equibles MCP server.",
@@ -4610,6 +4625,21 @@
       "repo": "kstack",
       "url": "https://github.com/dwk601/kstack",
       "installation_url": "https://github.com/dwk601/kstack#readme"
+    },
+    {
+      "name": "Kuudo Skills",
+      "displayName": "Kuudo Skills",
+      "description": "22 Agent Skills for Amazon sellers and advertisers covering Sponsored Products and Brands audits, search-term mining, budget pacing, DSP and Amazon Marketing Cloud, listings, product images, repricing, FBA inbound, and profitability, built for Kuudo's hosted Amazon Ads and SP-API MCP servers, with price, budget, listing, and shipment writes previewed for explicit approval",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "KuudoAI",
+      "repo": "skills",
+      "url": "https://github.com/KuudoAI/skills",
+      "installation_url": "https://github.com/KuudoAI/skills#readme"
     },
     {
       "name": "nuthinking/skills",
@@ -10227,14 +10257,14 @@
       "description": "Hosted hiring MCP server plus Claude Code, Cursor and Gemini CLI plugins: search 210,000+ vetted startup candidates, review Clera's picks and request intros over OAuth",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "getclera",
       "repo": "mcp",
       "url": "https://github.com/getclera/mcp",
-      "install_url": "https://raw.githubusercontent.com/getclera/mcp/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/getclera/mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "CloudBase AI Toolkit",
@@ -11693,6 +11723,21 @@
       "repo": "agents",
       "url": "https://github.com/reduck-ai/agents",
       "installation_url": "https://github.com/reduck-ai/agents#readme"
+    },
+    {
+      "name": "RestoSignals",
+      "displayName": "RestoSignals",
+      "description": "Claude Code plugin and Agent Skill for the hosted RestoSignals MCP server: find US restaurants and bars 1-6 months before they open, scored from public liquor-license, food-permit and business filings, with owner contact (free API key)",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "paperandbeyond23-gif",
+      "repo": "restosignals-mcp",
+      "url": "https://github.com/paperandbeyond23-gif/restosignals-mcp",
+      "install_url": "https://raw.githubusercontent.com/paperandbeyond23-gif/restosignals-mcp/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Review Analyzer Skill",

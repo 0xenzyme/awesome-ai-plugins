@@ -4691,6 +4691,21 @@
       "installation_url": "https://github.com/Jeffallan/claude-skills#readme"
     },
     {
+      "name": "dex",
+      "displayName": "dex",
+      "description": "Agent skills for warehouse exploration, dbt transformation authoring, and schema-drift maintenance. Built by Exmergo",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "exmergo",
+      "repo": "dex",
+      "url": "https://github.com/exmergo/dex",
+      "installation_url": "https://github.com/exmergo/dex#readme"
+    },
+    {
       "name": "image-use",
       "displayName": "image-use",
       "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
@@ -5149,6 +5164,21 @@
       "repo": "ai-companion-time-anchor",
       "url": "https://github.com/See-Sol-Lab/ai-companion-time-anchor",
       "install_url": "https://raw.githubusercontent.com/See-Sol-Lab/ai-companion-time-anchor/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "ai-craftsman-superpowers",
+      "displayName": "ai-craftsman-superpowers",
+      "description": "Quality gate for AI coding agents (Claude Code, Codex, Grok, Hermes) that refuses file writes breaking your project's rules before they reach disk, tells the agent how to fix them, and learns from your corrections",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "BULDEE",
+      "repo": "ai-craftsman-superpowers",
+      "url": "https://github.com/BULDEE/ai-craftsman-superpowers",
+      "install_url": "https://raw.githubusercontent.com/BULDEE/ai-craftsman-superpowers/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "AI-Native SDLC",
@@ -8475,6 +8505,21 @@
       "repo": "pbx-mcp",
       "url": "https://github.com/ictinnovations/pbx-mcp",
       "installation_url": "https://github.com/ictinnovations/pbx-mcp#readme"
+    },
+    {
+      "name": "Phone a Friend",
+      "displayName": "Phone a Friend",
+      "description": "CLI with Claude Code, Codex, OpenCode, and pi plugins that sends prompts and diff-scoped code reviews to Claude, Codex, Gemini, Antigravity, OpenCode, pi, or Ollama for second opinions, with structured review verdicts, resumable sessions, and multi-model team workflows",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "freibergergarcia",
+      "repo": "phone-a-friend",
+      "url": "https://github.com/freibergergarcia/phone-a-friend",
+      "install_url": "https://raw.githubusercontent.com/freibergergarcia/phone-a-friend/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "pi-codex-web-search",

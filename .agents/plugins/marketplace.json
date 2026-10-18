@@ -3457,6 +3457,23 @@
       "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json"
     },
     {
+      "name": "Krexa",
+      "displayName": "Krexa",
+      "description": "Turn a trading idea, post or video into fixed rules, backtest and paper-trade them for free, and request a live trading agent on Binance, Coinbase, Kraken, OKX, Bybit, MEXC, Hyperliquid, Polymarket or Solana DEXs that you approve and sign, through Krexa's hosted MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "agent-skills"
+      ],
+      "owner": "Krexa-xyz",
+      "repo": "skills",
+      "url": "https://github.com/Krexa-xyz/skills",
+      "install_url": "https://raw.githubusercontent.com/Krexa-xyz/skills/HEAD/.codex-plugin/plugin.json",
+      "installation_url": "https://github.com/Krexa-xyz/skills#readme"
+    },
+    {
       "name": "Kuudo Skills",
       "displayName": "Kuudo Skills",
       "description": "Agent Skills for Amazon sellers and advertisers \u2014 Ads audits, search-term mining, budget pacing, DSP and AMC, listings, images, repricing, FBA inbound, and profitability, through Kuudo's Amazon Ads and SP-API MCP servers.",
@@ -4702,6 +4719,21 @@
       "repo": "vibes-plug",
       "url": "https://github.com/roedyrustam/vibes-plug",
       "installation_url": "https://github.com/roedyrustam/vibes-plug#readme"
+    },
+    {
+      "name": "vietnamese-language-skill",
+      "displayName": "vietnamese-language-skill",
+      "description": "Collection of agent skills that fix Vietnamese register, terminology, and locale formatting across landing pages, docs, marketing, finance, and education, with a standalone validator",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "trussary",
+      "repo": "vietnamese-language-skill",
+      "url": "https://github.com/trussary/vietnamese-language-skill",
+      "installation_url": "https://github.com/trussary/vietnamese-language-skill#readme"
     },
     {
       "name": "writing-with-agents",
@@ -6432,6 +6464,21 @@
       "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Flow Scenes",
+      "displayName": "Flow Scenes",
+      "description": "Ambient pixel-art scenes above the prompt (a campfire, surf, rockets, a train, the Tesla Roadster and more) that speed up with the agent's work, give each subagent a companion of its own, and play optional soundscapes, in Claude Code, opencode and pi",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "robdmac",
+      "repo": "flow",
+      "url": "https://github.com/robdmac/flow",
+      "install_url": "https://raw.githubusercontent.com/robdmac/flow/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "FlowBoard",
       "displayName": "FlowBoard",
       "description": "Local-first project workspace and task-coordination plugin for OpenClaw and external coding agents, with lazy-loaded context and a shared Kanban board",
@@ -6686,6 +6733,21 @@
       "repo": "halfcycle-cli",
       "url": "https://github.com/Halfcycle-AI/halfcycle-cli",
       "installation_url": "https://github.com/Halfcycle-AI/halfcycle-cli#readme"
+    },
+    {
+      "name": "Halftime",
+      "displayName": "Halftime",
+      "description": "Turns a Claude Code usage-limit wait into a short course built from your own session: a briefing, lessons on the real changes Claude made, quizzes and a badge",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "aryawidjaja",
+      "repo": "halftime",
+      "url": "https://github.com/aryawidjaja/halftime",
+      "install_url": "https://raw.githubusercontent.com/aryawidjaja/halftime/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "harmonyos-skills",

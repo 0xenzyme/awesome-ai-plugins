@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-18",
-  "total": 891,
+  "total": 895,
   "platforms": [
     "codex",
     "grok",
@@ -3240,6 +3240,22 @@
       ]
     },
     {
+      "name": "Krexa",
+      "url": "https://github.com/Krexa-xyz/skills",
+      "owner": "Krexa-xyz",
+      "repo": "skills",
+      "description": "Turn a trading idea, post or video into fixed rules, backtest and paper-trade them for free, and request a live trading agent on Binance, Coinbase, Kraken, OKX, Bybit, MEXC, Hyperliquid, Polymarket or Solana DEXs that you approve and sign, through Krexa's hosted MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Krexa-xyz/skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "agent-skills"
+      ],
+      "installation_url": "https://github.com/Krexa-xyz/skills#readme"
+    },
+    {
       "name": "Kuudo Skills",
       "url": "https://github.com/KuudoAI/skills",
       "owner": "KuudoAI",
@@ -4399,6 +4415,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/roedyrustam/vibes-plug#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "vietnamese-language-skill",
+      "url": "https://github.com/trussary/vietnamese-language-skill",
+      "owner": "trussary",
+      "repo": "vietnamese-language-skill",
+      "description": "Collection of agent skills that fix Vietnamese register, terminology, and locale formatting across landing pages, docs, marketing, finance, and education, with a standalone validator",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/trussary/vietnamese-language-skill#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -6009,6 +6039,20 @@
       ]
     },
     {
+      "name": "Flow Scenes",
+      "url": "https://github.com/robdmac/flow",
+      "owner": "robdmac",
+      "repo": "flow",
+      "description": "Ambient pixel-art scenes above the prompt (a campfire, surf, rockets, a train, the Tesla Roadster and more) that speed up with the agent's work, give each subagent a companion of its own, and play optional soundscapes, in Claude Code, opencode and pi",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/robdmac/flow/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "FlowBoard",
       "url": "https://github.com/rasimme/FlowBoard",
       "owner": "rasimme",
@@ -6243,6 +6287,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/Halfcycle-AI/halfcycle-cli#readme"
+    },
+    {
+      "name": "Halftime",
+      "url": "https://github.com/aryawidjaja/halftime",
+      "owner": "aryawidjaja",
+      "repo": "halftime",
+      "description": "Turns a Claude Code usage-limit wait into a short course built from your own session: a briefing, lessons on the real changes Claude made, quizzes and a badge",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aryawidjaja/halftime/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
     },
     {
       "name": "harmonyos-skills",

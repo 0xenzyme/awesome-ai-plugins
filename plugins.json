@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-18",
-  "total": 895,
+  "total": 896,
   "platforms": [
     "codex",
     "grok",
@@ -11587,6 +11587,19 @@
       "install_url": "https://raw.githubusercontent.com/hjqcan/GoodMemory/HEAD/kimi.plugin.json",
       "ecosystems": [
         "kimi"
+      ]
+    },
+    {
+      "name": "dsh-agent-team",
+      "url": "https://github.com/Contexera/dsh-agent-team",
+      "owner": "Contexera",
+      "repo": "dsh-agent-team",
+      "description": "DeepSeek Harness plugin providing persistent team agents with per-member memory, Channels, and durable Task Threads",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
       ]
     },
     {

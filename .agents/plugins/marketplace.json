@@ -12455,6 +12455,20 @@
       "install_url": "https://raw.githubusercontent.com/hjqcan/GoodMemory/HEAD/kimi.plugin.json"
     },
     {
+      "name": "dsh-agent-team",
+      "displayName": "dsh-agent-team",
+      "description": "DeepSeek Harness plugin providing persistent team agents with per-member memory, Channels, and durable Task Threads",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "Contexera",
+      "repo": "dsh-agent-team",
+      "url": "https://github.com/Contexera/dsh-agent-team"
+    },
+    {
       "name": "dsh-api-balance",
       "displayName": "dsh-api-balance",
       "description": "API usage-balance panel for DeepSeek Harness: adds a \u300cUsage / Balance\u300d tab to the webui usage ring showing the account balance and today / this-month / 30-day cost with charts, acquiring the platform token automatically from local browser sessions",

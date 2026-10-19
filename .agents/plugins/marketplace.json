@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3095,21 +3095,6 @@
       "install_url": "https://raw.githubusercontent.com/entropy-data/dataproduct-builder-dbt/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Datacircle",
-      "displayName": "Datacircle",
-      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "waynehamadi",
-      "repo": "datacircle-plugin",
-      "url": "https://github.com/waynehamadi/datacircle-plugin",
-      "install_url": "https://raw.githubusercontent.com/waynehamadi/datacircle-plugin/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "deja",
       "displayName": "deja",
       "description": "Search the coding sessions already on your disk \u2014 Codex, Claude Code, Cursor, opencode and nineteen more \u2014 including work from before it was installed, indexed locally with no model in the loop.",
@@ -3125,6 +3110,23 @@
       "repo": "deja-vu",
       "url": "https://github.com/vshulcz/deja-vu",
       "install_url": "https://raw.githubusercontent.com/vshulcz/deja-vu/HEAD/codex-plugin/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "dex",
+      "displayName": "dex",
+      "description": "Agent skills for warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "agent-skills"
+      ],
+      "owner": "exmergo",
+      "repo": "dex",
+      "url": "https://github.com/exmergo/dex",
+      "install_url": "https://raw.githubusercontent.com/exmergo/dex/HEAD/.codex-plugin/plugin.json",
+      "installation_url": "https://github.com/exmergo/dex#readme"
     },
     {
       "name": "Digital Marketing Pro",
@@ -4016,6 +4018,21 @@
       "install_url": "https://raw.githubusercontent.com/tim-osterhus/codex-remotion-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Remove AI Watermarks",
+      "displayName": "Remove AI Watermarks",
+      "description": "Identify and remove AI watermarks and provenance metadata (Gemini and Veo marks, SynthID, C2PA, EXIF) in images and video you generated yourself, plus provenance metadata in audio.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "wiltodelta",
+      "repo": "remove-ai-watermarks",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "install_url": "https://raw.githubusercontent.com/wiltodelta/remove-ai-watermarks/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Resume Tailor",
       "displayName": "Resume Tailor",
       "description": "Tailor resumes and application text to job descriptions, or create candidate profiles from supplied career evidence.",
@@ -4691,21 +4708,6 @@
       "installation_url": "https://github.com/Jeffallan/claude-skills#readme"
     },
     {
-      "name": "dex",
-      "displayName": "dex",
-      "description": "Agent skills for warehouse exploration, dbt transformation authoring, and schema-drift maintenance. Built by Exmergo",
-      "category": "Agent Skills",
-      "source": "awesome-ai-plugins",
-      "platform": "agent-skills",
-      "ecosystems": [
-        "agent-skills"
-      ],
-      "owner": "exmergo",
-      "repo": "dex",
-      "url": "https://github.com/exmergo/dex",
-      "installation_url": "https://github.com/exmergo/dex#readme"
-    },
-    {
       "name": "image-use",
       "displayName": "image-use",
       "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
@@ -5196,6 +5198,21 @@
       "install_url": "https://raw.githubusercontent.com/bashebr/ai-native-sdlc/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "AI-Native SDLC Loop",
+      "displayName": "AI-Native SDLC Loop",
+      "description": "Six-stage SDLC where hooks enforce the loop at the tool-call level: an artifact gate refuses source writes no approved plan covers, and 8 skills with 2 read-only subagents drive intent through control bands",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "ghiaog123",
+      "repo": "ai-native-sdlc",
+      "url": "https://github.com/ghiaog123/ai-native-sdlc",
+      "install_url": "https://raw.githubusercontent.com/ghiaog123/ai-native-sdlc/HEAD/plugins/ai-sdlc/.claude-plugin/plugin.json"
+    },
+    {
       "name": "aide",
       "displayName": "aide",
       "description": "Persistent memory, code intelligence, and multi-agent orchestration for Claude Code, OpenCode, and Codex CLI via skills, hooks, and an MCP server",
@@ -5645,6 +5662,20 @@
       "repo": "chat-history",
       "url": "https://github.com/ay-bh/chat-history",
       "installation_url": "https://github.com/ay-bh/chat-history#readme"
+    },
+    {
+      "name": "ChatVault",
+      "displayName": "ChatVault",
+      "description": "Windows app that reads, searches, backs up and continues your Claude Code, Codex, Cursor, Gemini CLI, OpenCode and Cline chats across accounts",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "ssanaullahrais",
+      "repo": "Chat-Vault",
+      "url": "https://github.com/ssanaullahrais/Chat-Vault"
     },
     {
       "name": "Check and Fix Accessibility",
@@ -9018,6 +9049,20 @@
       "install_url": "https://raw.githubusercontent.com/seoskillsai/seo-skills-ai/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Session Flow",
+      "displayName": "Session Flow",
+      "description": "Runs one JSON workflow across separate Claude Code, Codex, Pi and Antigravity sessions, each step in its own native TUI, with parallel steps from a dependency graph and results passed between sessions over open-cross-session",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "leeguooooo",
+      "repo": "session-flow",
+      "url": "https://github.com/leeguooooo/session-flow"
+    },
+    {
       "name": "session-handoff",
       "displayName": "session-handoff",
       "description": "Create handoffs and migrate sessions between Claude Code and Codex",
@@ -9236,6 +9281,21 @@
       "repo": "spellbook",
       "url": "https://github.com/majiayu000/spellbook",
       "installation_url": "https://github.com/majiayu000/spellbook#readme"
+    },
+    {
+      "name": "Squadra",
+      "displayName": "Squadra",
+      "description": "Skill and CLI that coordinate Claude Code, Codex and Cursor windows as one team, with a shared task registry, proofs bound to the delivered code, review by a window that did not write it, and a live dashboard",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "dagoSte",
+      "repo": "squadra",
+      "url": "https://github.com/dagoSte/squadra",
+      "install_url": "https://raw.githubusercontent.com/dagoSte/squadra/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "squidward",
@@ -9573,6 +9633,21 @@
       "repo": "ThumbGate",
       "url": "https://github.com/IgorGanapolsky/ThumbGate",
       "install_url": "https://raw.githubusercontent.com/IgorGanapolsky/ThumbGate/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "time-blame",
+      "displayName": "time-blame",
+      "description": "Claude Code mod that splits each turn's time into Claude, the tools it ran (named by command, such as npm test) and the user waiting on a permission dialog, on one line under the answer, with a /blame panel for the session",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "karanb192",
+      "repo": "time-blame",
+      "url": "https://github.com/karanb192/time-blame",
+      "install_url": "https://raw.githubusercontent.com/karanb192/time-blame/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "tmux-agentic-plugin",
@@ -10608,6 +10683,17 @@
       "installation_url": "https://github.com/SergiuPogor/curlshot-mcp#readme"
     },
     {
+      "name": "Datacircle",
+      "displayName": "Datacircle",
+      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "owner": "waynehamadi",
+      "repo": "datacircle-plugin",
+      "url": "https://github.com/waynehamadi/datacircle-plugin",
+      "installation_url": "https://github.com/waynehamadi/datacircle-plugin#readme"
+    },
+    {
       "name": "DataForge",
       "displayName": "DataForge",
       "description": "Turns any website into a quality-scored LLM fine-tuning dataset in JSONL, Parquet or on the Hugging Face Hub, with a CLI and a `dataforge mcp` server exposing tools to scrape, explore, validate, run and inspect a dataset build",
@@ -11605,6 +11691,20 @@
       "installation_url": "https://github.com/okaypic/okaypic-video-skill#readme"
     },
     {
+      "name": "open-cross-session",
+      "displayName": "open-cross-session",
+      "description": "Lets Claude Code, Codex, Pi, Hermes and terminal agent sessions message and wake each other on one machine or across paired LAN computers over a mutually authenticated, encrypted link, with no server or account",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "leeguooooo",
+      "repo": "open-cross-session",
+      "url": "https://github.com/leeguooooo/open-cross-session"
+    },
+    {
       "name": "open-doc",
       "displayName": "open-doc",
       "description": "Document framework for agents: write React/TSX or import Markdown, render to real A4 pages, and export PDF, HTML, or Word, with bundled Agent Skills and an opt-in MCP server for editing documents",
@@ -12475,6 +12575,21 @@
       "repo": "watermelon-platform",
       "url": "https://github.com/WatermelonCorp/watermelon-platform",
       "install_url": "https://raw.githubusercontent.com/WatermelonCorp/watermelon-platform/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "wechat-use",
+      "displayName": "wechat-use",
+      "description": "Turns WeChat on macOS into a local API for agents and bots, with history and full-text search, contacts and groups, background sending without a UI flash, real-time listening, an HTTP bridge and a Wechaty gateway, plus experimental Windows x64 support",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "leeguooooo",
+      "repo": "wechat-use",
+      "url": "https://github.com/leeguooooo/wechat-use",
+      "install_url": "https://raw.githubusercontent.com/leeguooooo/wechat-use/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "whatsapp-claude-plugin",

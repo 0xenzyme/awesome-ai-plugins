@@ -2,15 +2,15 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-18",
-  "total": 908,
+  "last_updated": "2026-10-19",
+  "total": 916,
   "platforms": [
     "codex",
     "grok",
     "agent-skills",
     "claude-code",
-    "mcp",
     "standalone",
+    "mcp",
     "kimi",
     "deepseek-harness",
     "opencode"
@@ -2902,20 +2902,6 @@
       ]
     },
     {
-      "name": "Datacircle",
-      "url": "https://github.com/waynehamadi/datacircle-plugin",
-      "owner": "waynehamadi",
-      "repo": "datacircle-plugin",
-      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/waynehamadi/datacircle-plugin/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "deja",
       "url": "https://github.com/vshulcz/deja-vu",
       "owner": "vshulcz",
@@ -2930,6 +2916,22 @@
         "kimi",
         "deepseek-harness"
       ]
+    },
+    {
+      "name": "dex",
+      "url": "https://github.com/exmergo/dex",
+      "owner": "exmergo",
+      "repo": "dex",
+      "description": "Agent skills for warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/exmergo/dex/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "agent-skills"
+      ],
+      "installation_url": "https://github.com/exmergo/dex#readme"
     },
     {
       "name": "Digital Marketing Pro",
@@ -3762,6 +3764,20 @@
       ]
     },
     {
+      "name": "Remove AI Watermarks",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "owner": "wiltodelta",
+      "repo": "remove-ai-watermarks",
+      "description": "Identify and remove AI watermarks and provenance metadata (Gemini and Veo marks, SynthID, C2PA, EXIF) in images and video you generated yourself, plus provenance metadata in audio.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/wiltodelta/remove-ai-watermarks/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Resume Tailor",
       "url": "https://github.com/olegvg/resume-tailor-plugin",
       "owner": "olegvg",
@@ -4392,20 +4408,6 @@
       ]
     },
     {
-      "name": "dex",
-      "url": "https://github.com/exmergo/dex",
-      "owner": "exmergo",
-      "repo": "dex",
-      "description": "Agent skills for warehouse exploration, dbt transformation authoring, and schema-drift maintenance. Built by Exmergo",
-      "category": "Agent Skills",
-      "source": "awesome-ai-plugins",
-      "platform": "agent-skills",
-      "installation_url": "https://github.com/exmergo/dex#readme",
-      "ecosystems": [
-        "agent-skills"
-      ]
-    },
-    {
       "name": "image-use",
       "url": "https://github.com/leeguooooo/image-use",
       "owner": "leeguooooo",
@@ -4862,6 +4864,20 @@
       ]
     },
     {
+      "name": "AI-Native SDLC Loop",
+      "url": "https://github.com/ghiaog123/ai-native-sdlc",
+      "owner": "ghiaog123",
+      "repo": "ai-native-sdlc",
+      "description": "Six-stage SDLC where hooks enforce the loop at the tool-call level: an artifact gate refuses source writes no approved plan covers, and 8 skills with 2 read-only subagents drive intent through control bands",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ghiaog123/ai-native-sdlc/HEAD/plugins/ai-sdlc/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "aide",
       "url": "https://github.com/jmylchreest/aide",
       "owner": "jmylchreest",
@@ -5278,6 +5294,19 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/ay-bh/chat-history#readme"
+    },
+    {
+      "name": "ChatVault",
+      "url": "https://github.com/ssanaullahrais/Chat-Vault",
+      "owner": "ssanaullahrais",
+      "repo": "Chat-Vault",
+      "description": "Windows app that reads, searches, backs up and continues your Claude Code, Codex, Cursor, Gemini CLI, OpenCode and Cline chats across accounts",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ]
     },
     {
       "name": "Check and Fix Accessibility",
@@ -8403,6 +8432,19 @@
       ]
     },
     {
+      "name": "Session Flow",
+      "url": "https://github.com/leeguooooo/session-flow",
+      "owner": "leeguooooo",
+      "repo": "session-flow",
+      "description": "Runs one JSON workflow across separate Claude Code, Codex, Pi and Antigravity sessions, each step in its own native TUI, with parallel steps from a dependency graph and results passed between sessions over open-cross-session",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ]
+    },
+    {
       "name": "session-handoff",
       "url": "https://github.com/yuzushi-dev/session-handoff",
       "owner": "yuzushi-dev",
@@ -8604,6 +8646,20 @@
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Squadra",
+      "url": "https://github.com/dagoSte/squadra",
+      "owner": "dagoSte",
+      "repo": "squadra",
+      "description": "Skill and CLI that coordinate Claude Code, Codex and Cursor windows as one team, with a shared task registry, proofs bound to the delivered code, review by a window that did not write it, and a live dashboard",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/dagoSte/squadra/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -8915,6 +8971,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/IgorGanapolsky/ThumbGate/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "time-blame",
+      "url": "https://github.com/karanb192/time-blame",
+      "owner": "karanb192",
+      "repo": "time-blame",
+      "description": "Claude Code mod that splits each turn's time into Claude, the tools it ran (named by command, such as npm test) and the user waiting on a permission dialog, on one line under the answer, with a /blame panel for the session",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/karanb192/time-blame/HEAD/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
@@ -9880,6 +9950,16 @@
       ]
     },
     {
+      "name": "Datacircle",
+      "url": "https://github.com/waynehamadi/datacircle-plugin",
+      "owner": "waynehamadi",
+      "repo": "datacircle-plugin",
+      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/waynehamadi/datacircle-plugin#readme"
+    },
+    {
       "name": "DataForge",
       "url": "https://github.com/ianktoo/data-forge",
       "owner": "ianktoo",
@@ -10804,6 +10884,19 @@
       "installation_url": "https://github.com/okaypic/okaypic-video-skill#readme"
     },
     {
+      "name": "open-cross-session",
+      "url": "https://github.com/leeguooooo/open-cross-session",
+      "owner": "leeguooooo",
+      "repo": "open-cross-session",
+      "description": "Lets Claude Code, Codex, Pi, Hermes and terminal agent sessions message and wake each other on one machine or across paired LAN computers over a mutually authenticated, encrypted link, with no server or account",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ]
+    },
+    {
       "name": "open-doc",
       "url": "https://github.com/simonliu-ai-product/open-doc",
       "owner": "simonliu-ai-product",
@@ -11608,6 +11701,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "wechat-use",
+      "url": "https://github.com/leeguooooo/wechat-use",
+      "owner": "leeguooooo",
+      "repo": "wechat-use",
+      "description": "Turns WeChat on macOS into a local API for agents and bots, with history and full-text search, contacts and groups, background sending without a UI flash, real-time listening, an HTTP bridge and a Wechaty gateway, plus experimental Windows x64 support",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/leeguooooo/wechat-use/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

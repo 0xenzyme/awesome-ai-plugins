@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-20",
-  "total": 951,
+  "total": 954,
   "platforms": [
     "codex",
     "grok",
@@ -4548,6 +4548,20 @@
       ]
     },
     {
+      "name": "MARS",
+      "url": "https://github.com/andrea-magni/MARS",
+      "owner": "andrea-magni",
+      "repo": "MARS",
+      "description": "Agent Skills for the MARS-Curiosity Delphi REST library that help AI coding agents scaffold MARS servers, develop REST APIs and MCP servers, and implement servers from OpenAPI documents with MARSgen",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/andrea-magni/MARS#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "memory-use",
       "url": "https://github.com/leeguooooo/memory-use",
       "owner": "leeguooooo",
@@ -8212,6 +8226,20 @@
       "installation_url": "https://github.com/devinat1/pi-codex-web-search#readme"
     },
     {
+      "name": "piia-engram",
+      "url": "https://github.com/Patdolitse/piia-engram",
+      "owner": "Patdolitse",
+      "repo": "piia-engram",
+      "description": "Local-first personal AI identity and memory layer that shares user-owned preferences, lessons, decisions, playbooks, and project context across MCP-compatible coding tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Patdolitse/piia-engram/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Pika",
       "url": "https://github.com/ayushjainr/pikamux",
       "owner": "ayushjainr",
@@ -9558,6 +9586,20 @@
       "source": "awesome-ai-plugins",
       "platform": "mcp",
       "installation_url": "https://github.com/10ml-com/perfume-finder-mcp#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
+      "name": "actual-budget-mcp",
+      "url": "https://github.com/henfrydls/actual-budget-mcp",
+      "owner": "henfrydls",
+      "repo": "actual-budget-mcp",
+      "description": "MCP server: ask your Actual Budget where the money went, and record transactions, transfers and budget moves from any MCP client, with duplicate checks before anything is written",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/henfrydls/actual-budget-mcp#readme",
       "ecosystems": [
         "mcp"
       ]

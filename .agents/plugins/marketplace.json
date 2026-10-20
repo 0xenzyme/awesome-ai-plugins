@@ -4858,6 +4858,21 @@
       "installation_url": "https://github.com/dwk601/kstack#readme"
     },
     {
+      "name": "MARS",
+      "displayName": "MARS",
+      "description": "Agent Skills for the MARS-Curiosity Delphi REST library that help AI coding agents scaffold MARS servers, develop REST APIs and MCP servers, and implement servers from OpenAPI documents with MARSgen",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "andrea-magni",
+      "repo": "MARS",
+      "url": "https://github.com/andrea-magni/MARS",
+      "installation_url": "https://github.com/andrea-magni/MARS#readme"
+    },
+    {
       "name": "memory-use",
       "displayName": "memory-use",
       "description": "Portable agent memory in a private Markdown Git repository, with topic-focused recall, cross-session and cross-machine sync, and pre-commit secret checks",
@@ -8811,6 +8826,21 @@
       "installation_url": "https://github.com/devinat1/pi-codex-web-search#readme"
     },
     {
+      "name": "piia-engram",
+      "displayName": "piia-engram",
+      "description": "Local-first personal AI identity and memory layer that shares user-owned preferences, lessons, decisions, playbooks, and project context across MCP-compatible coding tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Patdolitse",
+      "repo": "piia-engram",
+      "url": "https://github.com/Patdolitse/piia-engram",
+      "install_url": "https://raw.githubusercontent.com/Patdolitse/piia-engram/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Pika",
       "displayName": "Pika",
       "description": "Enables Codex, Claude Code, and OpenCode agents to discover peers with relevant experience and consult them through private side conversations while their original work continues",
@@ -10262,6 +10292,21 @@
       "repo": "perfume-finder-mcp",
       "url": "https://github.com/10ml-com/perfume-finder-mcp",
       "installation_url": "https://github.com/10ml-com/perfume-finder-mcp#readme"
+    },
+    {
+      "name": "actual-budget-mcp",
+      "displayName": "actual-budget-mcp",
+      "description": "MCP server: ask your Actual Budget where the money went, and record transactions, transfers and budget moves from any MCP client, with duplicate checks before anything is written",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "henfrydls",
+      "repo": "actual-budget-mcp",
+      "url": "https://github.com/henfrydls/actual-budget-mcp",
+      "installation_url": "https://github.com/henfrydls/actual-budget-mcp#readme"
     },
     {
       "name": "affine-mcp-server",

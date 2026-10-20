@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-20",
-  "total": 948,
+  "total": 951,
   "platforms": [
     "codex",
     "grok",
@@ -36,7 +36,7 @@
       "url": "https://github.com/RBraga01/a-team",
       "owner": "RBraga01",
       "repo": "a-team",
-      "description": "Universal multi-agent infrastructure with 25 specialist agents, 16 enforced workflow skills, and a lead orchestrator for Claude Code, Codex CLI, Cursor, and OpenCode.",
+      "description": "A complete engineering team in one folder with 26 specialist agents, 20 workflow skills, an orchestrator, and quality gates; integration and hook support vary by coding platform.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/RBraga01/a-team/HEAD/.codex-plugin/plugin.json",
@@ -4506,6 +4506,20 @@
       ]
     },
     {
+      "name": "deed.page",
+      "url": "https://github.com/f-o-x11/deed-page-skill",
+      "owner": "f-o-x11",
+      "repo": "deed-page-skill",
+      "description": "Agent skill that publishes an HTML file or static folder to a permanent public deed.page URL with one curl request and no account",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/f-o-x11/deed-page-skill#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "image-use",
       "url": "https://github.com/leeguooooo/image-use",
       "owner": "leeguooooo",
@@ -4585,6 +4599,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/leeguooooo/profile-use#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "research-agent-skills",
+      "url": "https://github.com/KalarisLabs/research-agent-skills",
+      "owner": "KalarisLabs",
+      "repo": "research-agent-skills",
+      "description": "280+ Agent Skills that turn Claude Code, Codex, Cursor, Gemini CLI and other agents into a research co-scientist for literature reviews, hypotheses, experimental design, data analysis in biology, chemistry, medicine, physics and ML, paper writing, citation verification against Crossref, OpenAlex and arXiv, and peer review",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/KalarisLabs/research-agent-skills#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -10904,6 +10932,20 @@
       ]
     },
     {
+      "name": "last30days-skill-cn",
+      "url": "https://github.com/Jesseovo/last30days-skill-cn",
+      "owner": "Jesseovo",
+      "repo": "last30days-skill-cn",
+      "description": "Agent skill that searches eight Chinese platforms for the last 30 days and produces sourced research reports and hot-topic boards",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Jesseovo/last30days-skill-cn/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "LawBox",
       "url": "https://github.com/Samwang-afk/LawBox",
       "owner": "Samwang-afk",
@@ -11569,10 +11611,14 @@
       "url": "https://github.com/QVerisAI/qveris-agent-toolkit",
       "owner": "QVerisAI",
       "repo": "qveris-agent-toolkit",
-      "description": "Cross-client toolkit that brings professional data and tools to AI assistants, products, and workflows: find services, review supported scope, call them, and audit usage",
+      "description": "MCP server: connects AI assistants to [QVeris](https://qveris.ai/) professional data and tools through hosted Streamable HTTP or local stdio, with discovery, inspection, parameter validation, execution, and usage audits",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "installation_url": "https://github.com/QVerisAI/qveris-agent-toolkit#readme"
+      "platform": "mcp",
+      "installation_url": "https://github.com/QVerisAI/qveris-agent-toolkit#readme",
+      "ecosystems": [
+        "mcp"
+      ]
     },
     {
       "name": "RankControl",

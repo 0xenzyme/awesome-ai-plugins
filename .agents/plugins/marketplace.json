@@ -22,7 +22,7 @@
     {
       "name": "A Team",
       "displayName": "A Team",
-      "description": "Universal multi-agent infrastructure with 25 specialist agents, 16 enforced workflow skills, and a lead orchestrator for Claude Code, Codex CLI, Cursor, and OpenCode.",
+      "description": "A complete engineering team in one folder with 26 specialist agents, 20 workflow skills, an orchestrator, and quality gates; integration and hook support vary by coding platform.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -4813,6 +4813,21 @@
       "installation_url": "https://github.com/YourAKShaw/conventional-commits-framework#readme"
     },
     {
+      "name": "deed.page",
+      "displayName": "deed.page",
+      "description": "Agent skill that publishes an HTML file or static folder to a permanent public deed.page URL with one curl request and no account",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "f-o-x11",
+      "repo": "deed-page-skill",
+      "url": "https://github.com/f-o-x11/deed-page-skill",
+      "installation_url": "https://github.com/f-o-x11/deed-page-skill#readme"
+    },
+    {
       "name": "image-use",
       "displayName": "image-use",
       "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
@@ -4901,6 +4916,21 @@
       "repo": "profile-use",
       "url": "https://github.com/leeguooooo/profile-use",
       "installation_url": "https://github.com/leeguooooo/profile-use#readme"
+    },
+    {
+      "name": "research-agent-skills",
+      "displayName": "research-agent-skills",
+      "description": "280+ Agent Skills that turn Claude Code, Codex, Cursor, Gemini CLI and other agents into a research co-scientist for literature reviews, hypotheses, experimental design, data analysis in biology, chemistry, medicine, physics and ML, paper writing, citation verification against Crossref, OpenAlex and arXiv, and peer review",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "KalarisLabs",
+      "repo": "research-agent-skills",
+      "url": "https://github.com/KalarisLabs/research-agent-skills",
+      "installation_url": "https://github.com/KalarisLabs/research-agent-skills#readme"
     },
     {
       "name": "ui-craft",
@@ -11710,6 +11740,21 @@
       "install_url": "https://raw.githubusercontent.com/amd2g2zz/kunglao-agent/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "last30days-skill-cn",
+      "displayName": "last30days-skill-cn",
+      "description": "Agent skill that searches eight Chinese platforms for the last 30 days and produces sourced research reports and hot-topic boards",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Jesseovo",
+      "repo": "last30days-skill-cn",
+      "url": "https://github.com/Jesseovo/last30days-skill-cn",
+      "install_url": "https://raw.githubusercontent.com/Jesseovo/last30days-skill-cn/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "LawBox",
       "displayName": "LawBox",
       "description": "A collection of 58 Chinese legal workflow skills with unified task routing, source verification, and adversarial review protocols",
@@ -12427,9 +12472,13 @@
     {
       "name": "QVeris Agent Toolkit",
       "displayName": "QVeris Agent Toolkit",
-      "description": "Cross-client toolkit that brings professional data and tools to AI assistants, products, and workflows: find services, review supported scope, call them, and audit usage",
+      "description": "MCP server: connects AI assistants to [QVeris](https://qveris.ai/) professional data and tools through hosted Streamable HTTP or local stdio, with discovery, inspection, parameter validation, execution, and usage audits",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
       "owner": "QVerisAI",
       "repo": "qveris-agent-toolkit",
       "url": "https://github.com/QVerisAI/qveris-agent-toolkit",

@@ -807,6 +807,7 @@ Individually installable Agent Skills collections, rather than one client-specif
 - [kunglao-agent](https://github.com/amd2g2zz/kunglao-agent) - Reverse-engineering expert agent for binaries, firmware, protocols, and web/JS: MCP servers registered by kunglao-init (ghidra, sequential-thinking, x64dbg, ...), see the MCP supply table under Internals.
 - [Lacuna Music](https://github.com/JOYLINK-LTD/lacuna-plugin) - Generate original instrumental music and vocal songs from Codex through the Lacuna MCP server.
 - [Langfuse Observability](https://github.com/avivsinai/langfuse-mcp) - Query traces, debug exceptions, analyze sessions, and manage prompts via MCP tools.
+- [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) - Agent skill that searches eight Chinese platforms for the last 30 days and produces sourced research reports and hot-topic boards.
 - [Launch Fast](https://github.com/BlockchainHB/launchfast_codex_plugin) - Official Launch Fast plugin adapter for rapid SaaS deployment.
 - [LawBox](https://github.com/Samwang-afk/LawBox) - A collection of 58 Chinese legal workflow skills with unified task routing, source verification, and adversarial review protocols.
 - [lemo-mod](https://github.com/lemomo-ai/lemo-mod) - Claude Code plugin bundle: 21 styles for the terminal and desktop app, plus 16 mods (a panel, usage band, message numbers, speech, session recaps and more), with only looks on at install.

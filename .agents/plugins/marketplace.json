@@ -1340,6 +1340,21 @@
       "install_url": "https://raw.githubusercontent.com/yimwoo/hotl-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Image & Media Skills",
+      "displayName": "Image & Media Skills",
+      "description": "Eight skills that audit and fix image and video delivery for Core Web Vitals, plus Sirv image CDN, 360 spin, and AI Studio workflows.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "IgorVaryvoda",
+      "repo": "image-optimization-skill",
+      "url": "https://github.com/IgorVaryvoda/image-optimization-skill",
+      "install_url": "https://raw.githubusercontent.com/IgorVaryvoda/image-optimization-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "jev-use",
       "displayName": "jev-use",
       "description": "Hands the steps of a Codex session that produce no text \u2014 is the build done, which of these elements do I click, is this shell command safe \u2014 to Jev, TypeSafe AI's judgment model, with a PreToolUse command gate and typed escalation back to the model for anything it cannot decide.",

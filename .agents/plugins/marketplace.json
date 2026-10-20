@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -8517,14 +8517,10 @@
       "description": "Deterministic hooks for Claude Code, Codex, and Antigravity that gate destructive commands, credential access, outbound messages, and repeated tool calls using Python's standard library",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
       "owner": "ulukaya",
       "repo": "pawl",
       "url": "https://github.com/ulukaya/pawl",
-      "install_url": "https://raw.githubusercontent.com/ulukaya/pawl/HEAD/.codex-plugin/plugin.json"
+      "installation_url": "https://github.com/ulukaya/pawl#readme"
     },
     {
       "name": "pbx-mcp",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-20",
-  "total": 954,
+  "total": 955,
   "platforms": [
     "codex",
     "grok",
@@ -4627,6 +4627,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/KalarisLabs/research-agent-skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "ScoreStarling",
+      "url": "https://github.com/HaiyiMei/scorestarling-plugins",
+      "owner": "HaiyiMei",
+      "repo": "scorestarling-plugins",
+      "description": "Agent skills and hosted MCP server that transcribe, read, convert and edit sheet music, turning recordings, videos, sheet-music photos and PDFs, MIDI, MusicXML and ABC into one editable, playable score in a ScoreStarling account, with PDF, MusicXML, MIDI and audio exports",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/HaiyiMei/scorestarling-plugins#readme",
       "ecosystems": [
         "agent-skills"
       ]

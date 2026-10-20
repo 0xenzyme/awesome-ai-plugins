@@ -1535,6 +1535,21 @@
       "install_url": "https://raw.githubusercontent.com/orwa-mahmoud/nightshift/HEAD/plugins/nightshift/.codex-plugin/plugin.json"
     },
     {
+      "name": "Off the Wall",
+      "displayName": "Off the Wall",
+      "description": "Quotes your own past corrections back to Codex, word for word, before each answer; `otw report` shows what you correct most from your local history, and subagent routing names a cheaper model per subagent. No API key.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "toranalytics",
+      "repo": "off-the-wall",
+      "url": "https://github.com/toranalytics/off-the-wall",
+      "install_url": "https://raw.githubusercontent.com/toranalytics/off-the-wall/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Oh My Cassette",
       "displayName": "Oh My Cassette",
       "description": "Turn raw local clips into a finished cut by chatting: beat-synced edits, auto-matched music, subtitles, and transitions through a local stdio MCP server, with a timeline delta and contact-sheet preview every turn before anything renders.",
